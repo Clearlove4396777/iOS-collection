@@ -1,0 +1,11 @@
+# NAME: TruthSocial
+# AUTHOR: clearlove7
+# REPO: https://github.com/Clearlove4396777/Truth-Social-rule
+# UPDATED: 2023-03-25
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 2
+# TOTAL: 4
+DOMAIN,trk.bonsa.net
+DOMAIN,sp.rmbl.ws
+DOMAIN-SUFFIX,rumble.com
+DOMAIN-SUFFIX,truthsocial.com
