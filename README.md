@@ -37,7 +37,7 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Appl
 ```
 - 建议**TruthSocial**使用🇺🇸策略组
 
-- 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点，
+- 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点
 
 
 ## 安装链接
