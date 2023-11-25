@@ -1,0 +1,12 @@
+#!name = YouTube去广告
+#!desc = 采用新的方法过滤视频、瀑布流、搜索和Shorts中的广告，并删除底部的上传按钮，Premium订阅用户请勿使用。不能与其他具有YouTube广告过滤能力的插件使用。
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/80px/YouTube.png
+[Script]
+
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js,requires-body=1,max-size=3145728,binary-body-mode=true, tag=YouTube去视频贴片广告, img-url=https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/80px/YouTube.png
+
+[URL Rewrite]
+
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+[MITM]
+hostname = *.googlevideo.com, youtubei.googleapis.com

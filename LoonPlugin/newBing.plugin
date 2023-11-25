@@ -1,0 +1,20 @@
+
+#!name = Bing Edge UA
+#!desc = safari修改UA直接使用newbing
+#!author = Nobyda 可莉🅥
+#!homepage = https://github.com/NobyDa/Script
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/80px/Bing.png
+[Rule]
+DOMAIN-SUFFIX, bing.com, PROXY
+DOMAIN-SUFFIX, bing.com.cn, PROXY
+DOMAIN-SUFFIX, bing.net, PROXY
+DOMAIN-SUFFIX, bingads.com, PROXY
+DOMAIN-SUFFIX, bingagencyawards.com, PROXY
+DOMAIN-SUFFIX, bingapistatistics.com, PROXY
+DOMAIN-SUFFIX, bingsandbox.com, PROXY
+DOMAIN-SUFFIX, bingvisualsearch.com, PROXY
+DOMAIN-SUFFIX, bingworld.com, PROXY
+[Rewrite]
+^https:\/\/www\.bing\.com\/(search|new) header-replace User-Agent \w+\/[\d\.]+$ AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0
+[MITM]
+hostname = www.bing.com

@@ -1,0 +1,27 @@
+#!name=网易云AD
+#!desc=网易云去广告2023.1.29更新
+#!author=Github-keywos
+
+[General]
+force-http-engine-hosts = %APPEND% 59.111.*:0
+
+
+[URL Rewrite]
+iadmusicmatvideo.music.126.net - reject
+iadmusicmat.music.126.net - reject
+^https?:\/\/httpdns\.n\.netease\.com - reject
+^http:\/\/pgdt\.ugdtimg\.com\/141\/202\d\d\/snscosdownload\/SZ\/reserved - reject
+ ^https?:\/\/p\.du\.163\.com\/ad\/ - reject
+ ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
+ ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
+ ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject
+ ^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/prod\/feupload\/user\/.+?\.jpg$ - reject
+[Map Local]
+#开屏
+\/eapi\/ad data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+#热搜
+\/eapi\/search\/chart data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+
+
+ [MITM]
+ hostname = %APPEND% 112.13.*, 59.111.*, interface*.music.163.com:0, interface*.music.163.com.163jiasu.com:0,appconf.mail.163.com,support.you.163.com,p.du.163.com,ossgw.alicdn.com
