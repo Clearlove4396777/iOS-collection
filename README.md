@@ -11,7 +11,7 @@
 * **Rule**    
  * 包含AppleDownload、TruthSocial 远程规则集
 * **sgmodule**  
-  * 包含自用Surge（Shadowrocket）模块
+ * 包含自用Surge（Shadowrocket）模块
 
  
 ## 使用说明
@@ -19,26 +19,38 @@
 
 **Loon**
  
-```ini
-https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, policy=[Replace with your US Policy Group],tag=Truth Social,enabled=true
-```
+
 ```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, policy=[Replace with your Policy Group], tag=AppleDownload,enabled=true
 ```
-
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, policy=[Replace with your JP Policy Group],tag=DMM,enabled=true
+```
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, policy=[Replace with your US Policy Group],tag=Truth Social,enabled=true
+```
 **Surge**
 
 
-```ini
-RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, [Replace with your US Policy Group]
-```
+
 ```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, [Replace with your Policy Group]
 
 ```
-- 建议**TruthSocial**使用🇺🇸策略组
+```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, [Replace with your JP Policy Group]
+```
+```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, [Replace with your US Policy Group]
+```
+
+
 
 - 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点
+- 建议**DMM**使用🇯🇵策略组
+- 建议**TruthSocial**使用🇺🇸策略组
+
+
 
 
 ## 安装链接
