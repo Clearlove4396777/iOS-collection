@@ -1,0 +1,25 @@
+# NAME: TelegramNL
+# AUTHOR: GetSomeFries
+# REPO: https://github.com/ClearLuv/iOS_collecton
+# UPDATED: 2023-12-24
+# DOMAIN: 12
+# IP-ASN: 2
+# TOTAL: 14
+
+## Telegram DC2
+DOMAIN,venus.web.telegram.org // HTTP endpoints
+DOMAIN,venus-1.web.telegram.org // HTTP endpoints
+DOMAIN,kws2.web.telegram.org // WSS endpoints
+DOMAIN,kws2-1.web.telegram.org // WSS endpoints
+DOMAIN,zws2.web.telegram.org // WSS endpoints
+DOMAIN,zws2-1.web.telegram.org // WSS endpoints
+IP-ASN,44907,no-resolve // Data Center (🇮🇳IN ➜ 🇪🇺EU)
+
+## Telegram DC4
+DOMAIN,vesta.web.telegram.org // HTTP endpoints
+DOMAIN,vesta-1.web.telegram.org // HTTP endpoints
+DOMAIN,kws4.web.telegram.org // WSS endpoints
+DOMAIN,kws4-1.web.telegram.org // WSS endpoints
+DOMAIN,zws4.web.telegram.org // WSS endpoints
+DOMAIN,zws4-1.web.telegram.org // WSS endpoints
+IP-ASN,62041,no-resolve // Data Center (🇪🇺EU)

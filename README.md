@@ -3,15 +3,16 @@
 自用Surge模块、Loon插件、机场图标以及规则集
 ```
 
+
 ## 简介
 * **Airport_Logo** 
- * 包含自用机场图标
+  * 包含自用机场图标
 * **LoonPlugin** 
- * 包含自用Loon插件
+  * 包含自用Loon插件
 * **Rule**    
- * 包含AppleDownload、TruthSocial 远程规则集
+  * 包含AppleDownload、TruthSocial 远程规则集
 * **sgmodule**  
- * 包含自用Surge（Shadowrocket）模块
+  * 包含自用Surge（Shadowrocket）模块
 
  
 ## 使用说明
@@ -27,6 +28,15 @@ https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, policy=[Replace with your JP Policy Group],tag=DMM,enabled=true
 ```
 ```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramNL.list, policy=[Replace with your EU Policy Group],tag=TelegramNL,enabled=true
+```
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramSG.list, policy=[Replace with your SG Policy Group],tag=TelegramSG,enabled=true
+```
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramUS.list, policy=[Replace with your US Policy Group],tag=TelegramNL,enabled=true
+```
+```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, policy=[Replace with your US Policy Group],tag=Truth Social,enabled=true
 ```
 **Surge**
@@ -35,10 +45,18 @@ https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.l
 
 ```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, [Replace with your Policy Group]
-
 ```
 ```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, [Replace with your JP Policy Group]
+```
+```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramNL.list, [Replace with your EU Policy Group]
+```
+```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramSG.list, [Replace with your SG Policy Group]
+```
+```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramUS.list, [Replace with your US Policy Group]
 ```
 ```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, [Replace with your US Policy Group]
@@ -48,6 +66,9 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Trut
 
 - 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点
 - 建议**DMM**使用🇯🇵策略组
+-  建议**TelegramNL**使用🇪🇺策略组—推荐DC2&DC4用户使用
+-  建议**TelegramSG**使用🇸🇬策略组—推荐DC5用户使用
+-  建议**TelegramUS**使用🇺🇸策略组—推荐DC1&DC3用户使用
 - 建议**TruthSocial**使用🇺🇸策略组
 
 
