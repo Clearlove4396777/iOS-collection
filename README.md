@@ -10,7 +10,7 @@
 * **LoonPlugin** 
   * 包含自用Loon插件
 * **Rule**    
-  * 包含AppleDownload、TruthSocial 远程规则集
+  * 包含 `AppleDownload` `DMM` `Telegram` `TruthSocial` 远程规则集
 * **sgmodule**  
   * 包含自用Surge（Shadowrocket）模块
 
