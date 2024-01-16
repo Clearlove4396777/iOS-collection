@@ -1,11 +1,11 @@
 # NAME: DMM
 # AUTHOR: ClearLuv
 # REPO: https://github.com/ClearLuv/iOS_collecton
-# UPDATED: 2023-11-26
+# UPDATED: 2024-01-16
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
 
-hDOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmmgames.com
 DOMAIN-SUFFIX,unblockdmm.com
