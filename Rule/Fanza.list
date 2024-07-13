@@ -1,11 +1,12 @@
-# NAME: DMM
+# NAME: Fanza
 # AUTHOR: ClearLuv
 # REPO: https://github.com/ClearLuv/iOS_collecton
-# UPDATED: 2023-11-26
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
+# UPDATED: 2024-07-13
+# DOMAIN-SUFFIX: 8
+# TOTAL: 8
 
-hDOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmmgames.com
 DOMAIN-SUFFIX,unblockdmm.com
