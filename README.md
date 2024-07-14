@@ -10,7 +10,7 @@
 * **LoonPlugin** 
   * 包含自用Loon插件
 * **Rule**    
-  * 包含 `AppleDownload` `DMM` `Telegram` `TruthSocial` 远程规则集
+  * 包含 `AppleDownload` `Fanza` `Telegram` `TruthSocial` 远程规则集
 * **sgmodule**  
   * 包含自用Surge（Shadowrocket）模块
 
@@ -25,7 +25,7 @@
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, policy=[Replace with your Policy Group], tag=AppleDownload,enabled=true
 ```
 ```ini
-https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, policy=[Replace with your JP Policy Group],tag=DMM,enabled=true
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Fanza.list, policy=[Replace with your JP Policy Group],tag=Fanza,enabled=true
 ```
 ```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramNL.list, policy=[Replace with your EU Policy Group],tag=TelegramNL,enabled=true
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.l
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, [Replace with your Policy Group]
 ```
 ```ini
-RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/DMM.list, [Replace with your JP Policy Group]
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Fanza.list, [Replace with your JP Policy Group]
 ```
 ```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramNL.list, [Replace with your EU Policy Group]
@@ -65,7 +65,7 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Trut
 
 
 - 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点
-- 建议**DMM**使用🇯🇵策略组
+- 建议**Fanza**使用🇯🇵策略组
 -  建议**TelegramNL**使用🇪🇺策略组—推荐DC2&DC4用户使用
 -  建议**TelegramSG**使用🇸🇬策略组—推荐DC5用户使用
 -  建议**TelegramUS**使用🇺🇸策略组—推荐DC1&DC3用户使用
